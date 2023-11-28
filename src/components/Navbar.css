@@ -3,8 +3,7 @@
     margin:0;
 }
 .header{
-
-    position:fixed;
+    /* position:fixed; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -61,35 +60,29 @@
 
 
 @media screen and (max-width : 768px){
-      /* .logoDiv{
-        position:absolute;
-        top:0;
-        left:10%;
-      } */
+     
       .navBar{
         background-color: yellow;
-        height: max-content;
+        height: 100vh;
         position: absolute;
         padding: 1rem;
         width: 100%;
         top: 0;
         left: -500%;
-        z-index: 1;
+        z-index: 1000;
         box-shadow: 0 2px 4px rgba(209, 209, 209, 0.904);
         transition: 0.5s ease;
        
       }
+
       .navLists {
-   
         flex-direction: column;
         width: 100%;
         margin: auto;
         margin-top: 2%;
         gap:2rem;
     }
-    .navItems{
-        float:left;
-    }
+      
     .closeNavbar {
         position: absolute;
         top: 2rem;
@@ -109,5 +102,4 @@
     .toggleNavbar,.closeNavbar{
         display:none;
     }
-    
 }

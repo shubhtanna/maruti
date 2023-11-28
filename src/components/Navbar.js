@@ -13,6 +13,7 @@ const Navbar = () => {
    const removeNav = () => {
       setActive('navBar');
    }
+   
    return (
       <div className='header'>
 
